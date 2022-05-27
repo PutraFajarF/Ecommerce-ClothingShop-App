@@ -23,6 +23,18 @@ export const CartDropdownContainer = styled.div`
   ${GoogleSignInButton},
   ${InvertedButton} {
     margin-top: auto;
+
+    @media screen and (max-width: 800px) {
+      font-size: 14px;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    top: 55px;
+    right: 30px;
+    width: 185px;
+    height: 310px;
+    padding: 10px;
   }
 `
 
